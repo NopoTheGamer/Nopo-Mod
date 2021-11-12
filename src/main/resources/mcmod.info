@@ -1,16 +1,16 @@
 [
   {
-    "modid": "forgetemplate",
-    "name": "ForgeTemplate",
-    "description": "An example template",
-    "version": "${version}",
-    "mcversion": "${mcversion}",
-    "url": "",
+    "modid": "batphoneKeybind",
+    "name": "Maddox Batphone Mod",
+    "description": "Use a keybind to call up maddox",
+    "version": "1.0",
+    "mcversion": "1.8.9",
+    "url": "https://cdn.discordapp.com/emojis/855346313377480744.png",
     "updateUrl": "",
     "authorList": [
-      ""
+      "nopo"
     ],
-    "credits": "",
+    "credits": "danker for making the code lmfao",
     "logoFile": "",
     "screenshots": [],
     "dependencies": []

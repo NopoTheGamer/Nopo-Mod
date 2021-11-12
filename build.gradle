@@ -1,3 +1,19 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            name 'JitPack'
+            url 'https://jitpack.io'
+        }
+        maven { url = "https://maven.minecraftforge.net/" }
+        maven { url = "https://repo.spongepowered.org/maven" }
+    }
+    dependencies {
+        classpath "com.github.asbyth:ForgeGradle:6f53277"
+        classpath 'com.github.LxGaming:MixinGradle:d75e32e'//0.6-SNAPSHOT'
+        classpath 'com.github.jengelman.gradle.plugins:shadow:6.1.0'
+    }
+}
 plugins {
     id "java"
     id "com.github.johnrengelman.shadow" version "6.1.0"
@@ -5,8 +21,8 @@ plugins {
 }
 
 version = "1.0"
-group = "dev.asbyth"
-archivesBaseName = "ForgeTemplate"
+group = "com.nopo"
+archivesBaseName = "Batphone Mod"
 
 sourceCompatibility = targetCompatibility = 1.8
 compileJava.options.encoding = 'UTF-8'
