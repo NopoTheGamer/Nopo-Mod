@@ -11,6 +11,7 @@ public class Commands {
 
     public Commands() {
         ClientCommandHandler.instance.registerCommand(settingsCommand);
+        ClientCommandHandler.instance.registerCommand(settingsCommand2);
     }
     
     SimpleCommand.ProcessCommandRunnable settingsRunnable = new SimpleCommand.ProcessCommandRunnable() {
@@ -24,4 +25,5 @@ public class Commands {
     };
 
     SimpleCommand settingsCommand = new SimpleCommand("nopo", settingsRunnable);
+    SimpleCommand settingsCommand2 = new SimpleCommand("tna", settingsRunnable);
 }
