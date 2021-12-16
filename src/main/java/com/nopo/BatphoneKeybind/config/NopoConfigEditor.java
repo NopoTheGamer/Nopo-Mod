@@ -210,7 +210,7 @@ public class NopoConfigEditor extends GuiElement {
         RenderUtils.drawFloatingRectDark(x + 5, y + 5, xSize - 10, 20, false);
 
         FontRenderer fr = Minecraft.getMinecraft().fontRendererObj;
-        TextRenderUtils.drawStringCenteredScaledMaxWidth("NotEnoughUpdates by " + EnumChatFormatting.DARK_PURPLE + "Moulberry",
+        TextRenderUtils.drawStringCenteredScaledMaxWidth( "Mod by " + EnumChatFormatting.AQUA + "Nopo" + EnumChatFormatting.GRAY + ", Config by " + EnumChatFormatting.DARK_PURPLE + "Moulberry",
                 fr, x + xSize / 2, y + 15, false, 200, 0xa0a0a0);
 
         RenderUtils.drawFloatingRectDark(x + 4, y + 49 - 20,

@@ -11,5 +11,5 @@ public class Misc {
             desc = "Use a keybind to open the batphone menu"
     )
     @ConfigEditorBoolean
-    public boolean batPhoneKeybind = true;
+    public boolean batPhoneKeybind = false;
 }

@@ -1,6 +1,7 @@
 package com.nopo.BatphoneKeybind.config;
 
 import com.google.gson.annotations.Expose;
+import com.nopo.BatphoneKeybind.config.sections.Bridge;
 import com.nopo.BatphoneKeybind.config.sections.Misc;
 import com.nopo.BatphoneKeybind.core.GuiScreenElementWrapper;
 import com.nopo.BatphoneKeybind.core.config.Config;
@@ -78,8 +79,15 @@ public class NopoConfig extends Config {
 
     @Expose
     @Category(
-            name = "Misc",
-            desc = "Miscellaneous options which don't fit into any other category"
+            name = "Bridge Bot",
+            desc = "Bridge bot for tna"
+    )
+    public Bridge bridge = new Bridge();
+
+    @Expose
+    @Category(
+            name = "Batphone Keybind",
+            desc = ""
     )
     public Misc misc = new Misc();
     
